@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	-It initialize an empty Git repository. To use git I shall have always do it otherwise it is impossible to use it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	-The basic Git workflow goes something like this:
+
+		You modify files in your working directory.
+
+		You stage the files, adding snapshots of them to your staging area.
+
+		You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+
