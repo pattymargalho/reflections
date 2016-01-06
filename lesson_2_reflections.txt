@@ -12,3 +12,23 @@ How is the staging area different from the working directory and the repository?
 
 		You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+
+	-Using git add <file>, to make sure that all files or file is the correct(if both has logical changes to commit together) use git status.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	-When I moving on to different pieces of work, as new features, or fixed bugs. Creat new branchs is good to keep my project organising, particulary when I am sharing my project public. I should keep the Master branch intact and use the others branchs to new features, or some tests or just trying something different.
+
+How do the diagrams help you visualize the branch structure?
+
+	-It is much easier to understand with the diagrams.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	-I did my merging, but something went wrong, because my last commit not showed up the merging but other commit :/
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	-I just do merges manually when automatic merf=ging find some conflits.
